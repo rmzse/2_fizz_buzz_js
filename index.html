@@ -14,11 +14,10 @@
     <div>
       <span id="message"></span>
     </div>
-
     <script type="text/javascript">
       $(document).ready(function(){
         $('#btn').click( function(){
-          var msg = test(parseInt($('number').val()));
+          var msg = test(parseInt($('#number').val()));
           $('#message').html(msg);
         });
       });
