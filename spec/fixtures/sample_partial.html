@@ -6,7 +6,7 @@
     <title>FizzBuzz JS</title>
   </head>
   <body>
-    <h3>My Fixture</h3>
+    <h3>FizzBuzz</h3>
     <div>
       <input type="number" id="number" placeholder="Please enter a number!">
       <input type="button" id="btn" value="Go!">
@@ -18,7 +18,7 @@
     <script type="text/javascript">
       $(document).ready(function(){
         $('#btn').click( function(){
-          var msg = test(parseInt($('number').val()));
+          var msg = test(parseInt($('#number').val()));
           $('#message').html(msg);
         });
       });
