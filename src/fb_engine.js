@@ -1,5 +1,4 @@
-function FizzBuzz() {
-
-  function test15(number) { return true; }
-
+// function FizzBuzz(number) {
+function test(number) {
+   return true;
 }
