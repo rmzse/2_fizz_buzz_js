@@ -16,6 +16,9 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
-    test(parseInt($('number').val()));
+    $('#btn').click( function(){
+      var msg = test(parseInt($('number').val()));
+      $('#message').html(msg);
+    });
   });
 </script>
