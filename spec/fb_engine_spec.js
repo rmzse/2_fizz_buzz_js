@@ -9,7 +9,7 @@ describe('FizzBuzz Logic', function() {
     });
 
     it('accepts a number and checks for its division by 3', function() {
-      expect(test(9)).toEqual('fizz');
+      expect(test(63)).toEqual('fizz');
     });
 
 });
