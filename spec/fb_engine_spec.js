@@ -5,7 +5,7 @@ describe('FizzBuzz Logic', function() {
 
     it('accepts a number and checks for its division by 15', function() {
       number = 45;
-      expect(FizzBuzz().test15(number)).toEqual(true);  // call it #fizzbuzz() later
+      expect(test15(number)).toEqual(true);  // call it #fizzbuzz() later
     });
 
 
