@@ -3,5 +3,6 @@ function test(number) {
   if( (number % 3 === 0)&&(number % 5 === 0) )  { ret = 'fizzbuzz'; }
   else if( number % 3 === 0) { ret = 'fizz'; }
   else if( number % 5 === 0) { ret = 'buzz'; }
+  else ret = number;
   return ret;
 }
