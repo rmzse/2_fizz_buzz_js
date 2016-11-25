@@ -12,4 +12,8 @@ describe('FizzBuzz Logic', function() {
       expect(test(63)).toEqual('fizz');
     });
 
+    it('accepts a number which if not divisable by 3 or 5 returns the number itself', function(){
+      expect(test(8)).toEqual(8);
+    });
+
 });
