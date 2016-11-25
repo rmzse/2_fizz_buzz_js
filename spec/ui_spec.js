@@ -1,7 +1,7 @@
 describe('FizzBuzz UI', function(){
   beforeEach(function() {
     jasmine.getFixtures().fixturesPath = 'base/spec/fixtures';
-    loadFixtures('sample_partial.html');
+    loadFixtures('fizzbuzz_index.html');
     $.holdReady(false);
   });
 
