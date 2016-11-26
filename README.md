@@ -1,3 +1,11 @@
+# Fizz Buzz Challenge with Javascript
+This is the classic Fizz Buzz challenge which coders get all the time. Read more about it (https://en.wikipedia.org/wiki/Fizz_buzz).
+
+I created this as part of week 2 at the CraftAcademy Bootcamp (https://www.craftacademy.se). The idea of this project is to work with basic TDD with Karma to run both acceptance and unit tests and practise how to set it up with Travis and Coveralls. You can scaffold the boilerplate yourself (see link below) and try it out. The idea is to create a working fizz buzz game with tests of suites of the entire code.
+
+## Expected result
+This version is very barebones. Basically I solved it with the minimun amount of code and effort to achieve the objectives of the assignment. You should end up with a basic form consisting of 2 input elements that takes a number and plays the fizz buzz game up to that number.
+
 ## JS Test Boilerplate 0.1 (WIP)
 [![Build Status](https://travis-ci.org/CraftAcademy/karma-jquery-jasmine_boilerplate.svg?branch=master)](https://travis-ci.org/CraftAcademy/karma-jquery-jasmine_boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/CraftAcademy/karma-jquery-jasmine_boilerplate/badge.svg?branch=master)](https://coveralls.io/github/CraftAcademy/karma-jquery-jasmine_boilerplate?branch=master)
@@ -76,3 +84,10 @@ describe("Given my code", function () {
 	});
 });
 ```
+
+
+## Versioning
+I use Github for versioning.
+
+## Author
+* **Rodrigo Muñoz** (https://github.com/rmzse) with initial boilerplate from (https://github.com/CraftAcademy).
